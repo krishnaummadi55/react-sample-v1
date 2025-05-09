@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/krishnaummadi55/reactsampletest.git', branch: 'master'
+                git url: 'https://github.com/krishnaummadi55/react-sample-v1.git', branch: 'master'
             }
         }
         stage('Trigger CodeBuild') {
@@ -16,7 +16,7 @@ pipeline {
             projectName: 'react-test',
             region: 'ap-south-1',
             sourceControlType: 'jenkins',
-            envVariables: '[{PIPELINE_NAME, test-build-A}]'
+            envVariables: '[{PIPELINE_NAME, test-build}]'
           )
                 }
             }
