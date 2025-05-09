@@ -22,7 +22,7 @@ phases:
       - echo Artifacts collected in artifacts/
       - aws s3 cp artifacts s3://$S3_BUCKET_NAME/ --recursive
 
- artifacts:
+artifacts:
    base-directory: artifacts
    files:
      - '**/*'
