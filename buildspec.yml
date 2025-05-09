@@ -25,4 +25,4 @@ artifacts:
   base-directory: artifacts
   files:
     - '**/*'
-  name: $PIPELINE_NAME-$CODEBUILD_BUILD_NUMBER
+  name: $PIPELINE_NAME-$CODEBUILD_BUILD_NUMBER.zip
