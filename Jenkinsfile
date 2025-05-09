@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/krishnaummadi55/react-sample-v1.git', branch: 'master'
+                git url: 'https://github.com/krishnaummadi55/react-sample-v1.git', branch: 'main'
             }
         }
         stage('Trigger CodeBuild') {
