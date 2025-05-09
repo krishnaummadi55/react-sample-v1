@@ -16,7 +16,7 @@ pipeline {
             projectName: 'react-test',
             region: 'ap-south-1',
             sourceControlType: 'jenkins',
-            envVariables: '[{PIPELINE_NAME, test-build}]'
+            envVariables: '[{PIPELINE_NAME, reactsample-v1}]'
           )
                 }
             }
